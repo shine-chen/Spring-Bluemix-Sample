@@ -1,5 +1,6 @@
-
 # Getting Started
+
+This is a note to deploy a web app to Liberty for Java (WebSphere Liberty) on IBM Bluemix.
 
 ## Execute developing server at local machine.
 
@@ -10,7 +11,10 @@ grale/tasks/application/bootRun
 After the local web server is launched, you can test it by opening http://localhost:8080 in a local web browser.
 
 ## Packaging JAR and WAR
-execute gradle/tasks/build/build
+execute
+```
+gradle/tasks/build/build
+```
 
 ## Deploy WAR
 ```
